@@ -1,6 +1,6 @@
-# MERN Authentication Starter
+# MERN Authentication
 
-This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool. This authentication workflow is based off of my [MERN Stack From Scratch | eCommerce](https://www.traversymedia.com/mern-stack-from-scratch) course.
+This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool.
 
 <img src="./frontend/public/screen.png" />
 
@@ -28,11 +28,11 @@ Rename the `.env.example` file to `.env` and add the following
 ```
 NODE_ENV = development
 PORT = 5000
-MONGO_URI = your mongodb uri
+MONGO_URI = local mongodb url or any
 JWT_SECRET = 'abc123'
 ```
 
-Change the JWT_SECRET to what you want
+
 
 ### Install Dependencies (frontend & backend)
 
